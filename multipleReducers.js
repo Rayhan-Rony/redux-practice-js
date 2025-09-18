@@ -1,11 +1,9 @@
+const { createStore, combineReducers } = require("redux");
 // state
 // action
 // reducers
 // store
-
-const { createStore, combineReducers } = require("redux");
-
-// example 1
+// example 1 ********************
 // products state
 const initialProductsCounter = {
   products: ["pen", "pencil"],
